@@ -1,10 +1,29 @@
 @import 'tachyons/css/tachyons.css';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i,900');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Playfair+Display:400,700,700i,900'); */
+
 :root {
   --dark-gray: #282828;
-  --dark-purple: #0C0032;
+  --dark-purple: #0c0032;
   --deep-purple: #190061;
   --mid-purple: #240090;
-  --bright-purple: #3500D3;
+  --bright-purple: #3500d3;
+}
+
+body {
+  font-family: sans-serif;
+  /* font-family: 'Open Sans', sans-serif;   */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 0.65px;
 }
 
 .bg-dark-gray {
@@ -12,7 +31,7 @@
 }
 
 .bg-dark-purple {
-  background: #0C0032;
+  background: #0c0032;
 }
 
 .bg-deep-purple {
@@ -24,15 +43,15 @@
 }
 
 .bg-bright-purple {
-  background: #3500D3;
+  background: #3500d3;
 }
 
 .bright-purple {
-  color: #3500D3;
+  color: #3500d3;
 }
 
 .aquamarine {
-  color: #7fd4d3
+  color: #7fd4d3;
 }
 
 .highlight-header,
@@ -41,7 +60,7 @@
 .projects h1,
 .projects h2 {
   position: relative;
-  z-index: 1
+  z-index: 1;
 }
 
 .highlight-header:after,
@@ -58,5 +77,5 @@
   opacity: 1;
   position: absolute;
   width: calc(100% + 30px);
-  z-index: -1
+  z-index: -1;
 }
