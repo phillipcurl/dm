@@ -1,1 +1,62 @@
 @import 'tachyons/css/tachyons.css';
+:root {
+  --dark-gray: #282828;
+  --dark-purple: #0C0032;
+  --deep-purple: #190061;
+  --mid-purple: #240090;
+  --bright-purple: #3500D3;
+}
+
+.bg-dark-gray {
+  background: #282828;
+}
+
+.bg-dark-purple {
+  background: #0C0032;
+}
+
+.bg-deep-purple {
+  background: #190061;
+}
+
+.bg-mid-purple {
+  background: #240090;
+}
+
+.bg-bright-purple {
+  background: #3500D3;
+}
+
+.bright-purple {
+  color: #3500D3;
+}
+
+.aquamarine {
+  color: #7fd4d3
+}
+
+.highlight-header,
+.journal h1,
+.journal h2,
+.projects h1,
+.projects h2 {
+  position: relative;
+  z-index: 1
+}
+
+.highlight-header:after,
+.journal h1:after,
+.journal h2:after,
+.projects h1:after,
+.projects h2:after {
+  background-color: #7fd4d3;
+  bottom: 0;
+  content: ' ';
+  display: block;
+  height: 50%;
+  left: 7px;
+  opacity: 1;
+  position: absolute;
+  width: calc(100% + 30px);
+  z-index: -1
+}

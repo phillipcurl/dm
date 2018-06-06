@@ -1,6 +1,6 @@
 <template>
   <footer class="pa4 pa5-l black-70 bt b--black-10">
-    <!-- <div class="mb4-l cf">
+    <div class="mb4-l cf">
       <h1 class="fl w-100 pv0 f6 fw6 ttu tracked mb4">Studios</h1>
       <article class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
         <h4 class="f5 f4-l fw6">SF</h4>
@@ -36,7 +36,7 @@
           +99 5555-5555
         </a>
       </article>
-    </div> -->
+    </div>
     <section class="cf mb5">
       <div class="mb4 mb0-ns w-100 w-50-l fr">
         <a class="black-70 f3 f2-ns fw6 fr link dim dib pv3 mt2 mb4 mb0-l" href="mailto:hello@impossible.com" >
